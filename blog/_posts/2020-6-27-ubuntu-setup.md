@@ -1,6 +1,6 @@
 ---
 date: 2020-6-26
-tag:
+tags:
   - ubuntu
   - brew
   - snap
@@ -17,7 +17,7 @@ meta:
 
 [[toc]]
 
-ÀÌ»óÇÏ°Ô ubuntu¸¦ »ç¿ëÇÏ´Ùº¸¸é »õ ÄÄÇ»ÅÍÃ³·³ ±ú²ıÇÑ »óÅÂ¿¡¼­ »ç¿ëÇÏ°í ½Í¾îÁø´Ù. ±×·²¶§¸¶´Ù ÆíÇÏ°Ô ´Ù½Ã ¼³Ä¡ÇÏ·Á°í ±â·ÏÇØµĞ´Ù.
+ì´ìƒí•˜ê²Œ ubuntuë¥¼ ì‚¬ìš©í•˜ë‹¤ë³´ë©´ ìƒˆ ì»´í“¨í„°ì²˜ëŸ¼ ê¹¨ë—í•œ ìƒíƒœì—ì„œ ì‚¬ìš©í•˜ê³  ì‹¶ì–´ì§„ë‹¤. ê·¸ëŸ´ë•Œë§ˆë‹¤ í¸í•˜ê²Œ ë‹¤ì‹œ ì„¤ì¹˜í•˜ë ¤ê³  ê¸°ë¡í•´ë‘”ë‹¤.
 
 ## Essential
 
@@ -60,7 +60,7 @@ ansiweather -l seoul -a false -s true -f 3
 
 ## Chrome
 
-- https://www.google.com/chrome/
+- <https://www.google.com/chrome/>
 
 ## Snap
 
@@ -70,11 +70,11 @@ sudo snap install --classic slack
 
 ## Visual Code
 
-Ubuntu¿¡¼­ snapÀ¸·Î VSCode ¼³Ä¡½Ã, ÇÑ±Û ÀÔ·ÂÀÌ ¾ÈµÊ. ºÎµæÀÌÇÏ°Ô snapÀÌ ¾Æ´Ñ ¾Æ·¡ °ø½Ä È¨ÆäÀÌÁö¿¡¼­ `.deb`·Î ¼³Ä¡
+Ubuntuì—ì„œ snapìœ¼ë¡œ VSCode ì„¤ì¹˜ì‹œ, í•œê¸€ ì…ë ¥ì´ ì•ˆë¨. ë¶€ë“ì´í•˜ê²Œ snapì´ ì•„ë‹Œ ì•„ë˜ ê³µì‹ í™ˆí˜ì´ì§€ì—ì„œ `.deb`ë¡œ ì„¤ì¹˜
 
-- https://code.visualstudio.com/download
+- <https://code.visualstudio.com/download>
 
-¼³Ä¡ ÈÄ¿¡´Â `Ctrl + ,`(settings) À» µé¾î°¡¿©, `windown.titleBarStyle` À» `custom` ·Î ¹Ù²Û´Ù.
+ì„¤ì¹˜ í›„ì—ëŠ” `Ctrl + ,`(settings) ì„ ë“¤ì–´ê°€ì—¬, `windown.titleBarStyle` ì„ `custom` ë¡œ ë°”ê¾¼ë‹¤.
 
 ![VSCode with titleBar](../_img/with-titleBar.png)
 ![VSCode without titleBar](../_img/Without-titlebar.png)
@@ -86,8 +86,8 @@ Ubuntu¿¡¼­ snapÀ¸·Î VSCode ¼³Ä¡½Ã, ÇÑ±Û ÀÔ·ÂÀÌ ¾ÈµÊ. ºÎµæÀÌÇÏ°Ô snapÀÌ ¾Æ´Ñ ¾Æ·¡
 
 ## Notion
 
-³ë¼ÇÀº Linux¿ë AppÀÌ ¾ø±â¿¡ Chrome shortcut »ı¼º. ¾Æ·¡ ¸µÅ©·Î ³ë¼Ç À¥ÆäÀÌÁö Á¢¼ÓÈÄ, `settings > More tools > Create Shortcut` Å¬¸¯ÈÄ, Open as window ¿É¼ÇÀ» Ã¼Å©ÇÏ¿© »ı¼º. »õ·Î ¶ç¾îÁø Chrome Ã¢ÀÌ ÀÖ´Â »óÅÂ¿¡¼­, Dock¿¡¼­ Add to FavoriteÀ» ÇÏ¿© ÀúÀåÇÑ´Ù. °°Àº ¹æ½ÄÀ¸·Î ´Ù¸¥ »çÀÌÆ®µéµµ ÀúÀå °¡´ÉÇÏ´Ù.
+ë…¸ì…˜ì€ Linuxìš© Appì´ ì—†ê¸°ì— Chrome shortcut ìƒì„±. ì•„ë˜ ë§í¬ë¡œ ë…¸ì…˜ ì›¹í˜ì´ì§€ ì ‘ì†í›„, `settings > More tools > Create Shortcut` í´ë¦­í›„, Open as window ì˜µì…˜ì„ ì²´í¬í•˜ì—¬ ìƒì„±. ìƒˆë¡œ ë„ì–´ì§„ Chrome ì°½ì´ ìˆëŠ” ìƒíƒœì—ì„œ, Dockì—ì„œ Add to Favoriteì„ í•˜ì—¬ ì €ì¥í•œë‹¤. ê°™ì€ ë°©ì‹ìœ¼ë¡œ ë‹¤ë¥¸ ì‚¬ì´íŠ¸ë“¤ë„ ì €ì¥ ê°€ëŠ¥í•˜ë‹¤.
 
-- https://notion.so
+- <https://notion.so>
 
 ![Ubuntu Dock](../_img/ubuntu-dock.png)
