@@ -1,43 +1,43 @@
 ---
 date: 2020-6-26
 tags:
-  - ubuntu
-  - brew
-  - snap
+  + ubuntu
+  + snap
 author: Aaron So
 location: Seoul
 meta:
-  - name: description
+  + name: description
     content: ubuntu setup
-  - name: keywords
-    content: ubntu setup brew snap
+  + name: keywords
+    content: ubntu setup snap
 ---
 
 # Ubuntu Setup
 
-[[toc]]
+이상하게 ubuntu를 사용하다보면, 어느 순간에는 아무 이유 없이 처음부터 새로 설치하고 싶어진다. 그럴때마다 편하게 다시 설치하려고 기록해둔다.
 
-이상하게 ubuntu를 사용하다보면 새 컴퓨터처럼 깨끗한 상태에서 사용하고 싶어진다. 그럴때마다 편하게 다시 설치하려고 기록해둔다.
-
-## Essential
+## 1. Essential
 
 ```bash
 sudo apt-get install build-essential curl file git vim
 
 ## optional
+
 sudo apt-get install htop tree wget
 ```
 
-## Homebrew
+## 2. Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 ## For test
+
 brew install hello
 brew uninstall hello
 
 ## set PATH
+
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
 ```
 
@@ -47,11 +47,12 @@ brew install zsh
 brew install python3
 
 ## optional
+
 brew install ansiweather
 ansiweather -l seoul -a false -s true -f 3
 ```
 
-### References
+References
 
 - [Homebrew Offical](!https://brew.sh/)
 - [Homebrew-cask](!https://github.com/Homebrew/homebrew-cask)
@@ -68,18 +69,19 @@ ansiweather -l seoul -a false -s true -f 3
 sudo snap install --classic slack
 ```
 
-## Visual Code
+단, snap으로 프로그램 설치시 아직 한글 입력에 문제가 있음. 부득이 하게 snap이 아닌 공식 홈페이지에서 `.deb` 으로 설치한다. 만약 리눅스용 공식 프로그램이 없다면 아래 Notion처럼 크롬 북마크 형식으로 웹을 앱처럼 사용한다.
 
-Ubuntu에서 snap으로 VSCode 설치시, 한글 입력이 안됨. 부득이하게 snap이 아닌 아래 공식 홈페이지에서 `.deb`로 설치
+## Visual Code
 
 - <https://code.visualstudio.com/download>
 
-설치 후에는 `Ctrl + ,`(settings) 을 들어가여, `windown.titleBarStyle` 을 `custom` 로 바꾼다.
+우분투의 많은 프로그램들이 그렇지만, 상단 titleBar가 상당히 거슬린다. VSCode 설치 후에는 항상 `Ctrl + ,` (settings) 을 들어가여, `windown.titleBarStyle` 을 `custom` 로 바꾼다.
 
 ![VSCode with titleBar](../_img/with-titleBar.png)
+
 ![VSCode without titleBar](../_img/Without-titlebar.png)
 
-### References
+References
 
 - [VS Code on Ubuntu](!https://gist.github.com/philoskim/a79440bd51ae40f04a4d7cafa472caf1)
 - [VS Code titleBar](!https://www.reddit.com/r/vscode/comments/9624id/how_did_i_not_know_about_this_setting_its/)
