@@ -1,14 +1,13 @@
 ---
 date: 2020-6-26
 tags:
-  + ubuntu
-  + snap
+  - ubuntu
 author: Aaron So
 location: Seoul
 meta:
-  + name: description
+  - name: description
     content: ubuntu setup
-  + name: keywords
+  - name: keywords
     content: ubntu setup snap
 ---
 

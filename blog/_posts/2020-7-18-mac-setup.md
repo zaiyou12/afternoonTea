@@ -1,14 +1,13 @@
 ---
 date: 2020-7-18
 tags:
-  + mac
-  + finder
+  - mac
 author: Aaron So
 location: Seoul
 meta:
-  + name: description
+  - name: description
     content: mac setup
-  + name: keywords
+  - name: keywords
     content: mac setup finder terminal app
 ---
 
