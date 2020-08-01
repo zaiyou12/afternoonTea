@@ -1,0 +1,79 @@
+---
+date: 2020-8-1
+tags:
+  - vscode
+author: Aaron So
+location: Seoul
+meta:
+  - name: description
+    content: vscode extension
+  - name: keywords
+    content: vscode extension
+---
+
+# VSCode Extension
+
+크롬까지 다 설정했으면 이제 남은 것은 VSCode와 Terminal만 남았다. VSCode는 크롬만큼 동기화가 자동으로 되지는 않지만, 약간의 설정으로 가능하게 할 수 있다. 우선 가장 기본적인 것부터 하고자 한다.
+
+## 기본 셋팅
+
+- 주석 강조 도구: TODO Highlight / Comment Anchors
+
+이전에는 TODO Highlight를 많이 사용했지만, Comment Anchors를 사용하게 되면 하나의 화면에서 한번에 모아보는 기능까지 있어서 더 편한 것 같다. TODO Hightlight와 Bookmark를 합치면 Comment Anchors가 된다.
+
+- Bracket Pair Colorizer
+- Prettier
+- Path Intellisense
+- Setting Sync
+
+## MS provided
+
+- Live Share
+- Docker
+- koean language pack for visual studio code
+
+## Theme
+
+- vscode-icon
+- Material Theme / Material Icon Theme
+- Monokai or Monokai Pro
+
+## Git
+
+- Git History (의외로 잘 안쓰게 됨, GitKraken이 더 이뻐서,,,)
+- Git Lens (기본으로 나오는 것도 좋지만 뒤로 갈때가 대박) 기능이 많아 배워야 한다
+
+## Language
+
+### Markdown
+
+- markdown to pdf
+- Markdown All in One
+
+### HTML
+
+- Auto Close Tag
+- Auto Rename Tag
+- Snapshot-tools
+- Color Highlight / vscode-styled-components
+- Live Server
+- Emmet (ul>li>)
+- Debugger for Chrome
+
+### TypeScript
+
+- TypeScript Extension Pack or Tslint
+- jest
+
+### Python
+
+- Notebook Support (.ipynb)
+- autoDocstring
+- AREPL (바로 옆에서 결과 확인)
+- indent-rainbow  스페이스 간격 확인
+
+## Service
+
+- WakaTime
+- Dash (오프라인 문서, 나는 잘 안씀)
+
