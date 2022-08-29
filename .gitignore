@@ -15,3 +15,5 @@ api/types/graphql.d.ts
 !.yarn/sdks
 !.yarn/versions
 dev.db*
+
+.env

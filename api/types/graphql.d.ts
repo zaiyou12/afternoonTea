@@ -1,5 +1,5 @@
 import { GraphQLResolveInfo, GraphQLScalarType, GraphQLScalarTypeConfig } from 'graphql';
-import { UserExample as PrismaUserExample, Prisma } from '.prisma/client';
+import { Post as PrismaPost, Prisma } from '.prisma/client';
 import { RedwoodGraphQLContext } from '@redwoodjs/graphql-server/dist/functions/types';
 export type Maybe<T> = T | null;
 export type InputMaybe<T> = Maybe<T>;
@@ -154,7 +154,7 @@ export type ResolversTypes = {
   JSON: ResolverTypeWrapper<Prisma>;
   JSONObject: ResolverTypeWrapper<Scalars['JSONObject']>;
   Mutation: ResolverTypeWrapper<{}>;
-  Post: ResolverTypeWrapper<Post>;
+  Post: ResolverTypeWrapper<PrismaPost>;
   Query: ResolverTypeWrapper<{}>;
   Redwood: ResolverTypeWrapper<Omit<Redwood, 'currentUser'> & { currentUser?: Maybe<ResolversTypes['JSON']> }>;
   String: ResolverTypeWrapper<Scalars['String']>;
@@ -173,7 +173,7 @@ export type ResolversParentTypes = {
   JSON: Prisma;
   JSONObject: Scalars['JSONObject'];
   Mutation: {};
-  Post: Post;
+  Post: PrismaPost;
   Query: {};
   Redwood: Omit<Redwood, 'currentUser'> & { currentUser?: Maybe<ResolversParentTypes['JSON']> };
   String: Scalars['String'];
