@@ -5,6 +5,8 @@ tags:
 
 # RedwoodJs를 선택하게된 이유
 
+1~3줄 간략한 소개
+
 ## 기존의 불편함들
 
 - React, Vue.js, Svelte에 대한 불편함
@@ -20,6 +22,8 @@ tags:
 - FullStack Framework로 향하는 트랜드: [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
 
 ## RedwooJs의 우수성
+
+사용 예시와 함께 구체적으로 제시
 
 - 언제든 직접 수정할 수 있는 구성 (Flask와 다르지만 비슷한 느낌, auth와 development에서 느낌)
 - Storybook과 테스트 작성을 유도하고, 불필요한 반복을 없애주는 CLI
